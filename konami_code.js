@@ -28,7 +28,6 @@ function init() {
     if (counter === 10) {
         alert('yes')
     } else {
-      alert('Incorrect')
       checkCode = []
     }
   }
