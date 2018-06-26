@@ -14,7 +14,7 @@ const codes = [
 function init() {
   // your code here
   var checkCode = [];
-  document.addEventListener('keydown', (event) => {
+  body.addEventListener('keydown', (event) => {
     checkCode.push(event.key)
     console.log(checkCode)
   })
