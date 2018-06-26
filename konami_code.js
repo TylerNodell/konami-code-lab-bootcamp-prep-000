@@ -20,9 +20,9 @@ function init() {
   })
   if (checkCode.length === 10) {
     if (checkCode === codes) {
-      alert('You got it!')
+      alert('Right')
     } else {
-      alert('Wrong!')
+      alert('Nope')
       checkCode = []
     }
   }
