@@ -18,15 +18,21 @@ function init() {
   input.addEventListener('keydown', (event) => {
     checkCode.push(event.key)
     console.log(checkCode)
-  })
   if (checkCode.length === 10) {
-    if (checkCode === codes) {
-      alert('Right')
+    var counter = 0;
+    for (var i = 0; i < 10; i++) {
+      if (checkCode[i] === codes[i]) {
+      counter++
+        }
+      }
+    if (counter === 10) {
+        alert('yes')
     } else {
-      alert('Nope')
+      alert('Incorrect')
       checkCode = []
     }
   }
+})
 }
 
 init()
