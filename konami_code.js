@@ -15,7 +15,7 @@ function init() {
   // your code here
   var checkCode = [];
   const input = document.querySelector('body')
-  inpupt.addEventListener('keydown', (event) => {
+  input.addEventListener('keydown', (event) => {
     checkCode.push(event.key)
     console.log(checkCode)
   })
