@@ -37,5 +37,3 @@ function init() {
   }
 })
 }
-
-init()
