@@ -28,11 +28,11 @@ function init() {
     if (counter === 10) {
         alert('yes')
         checkCode = []
-        console.log(success);
+        console.log('success');
         return
     } else {
       checkCode = []
-      console.log(failure);
+      console.log('failure');
     }
   }
 })
