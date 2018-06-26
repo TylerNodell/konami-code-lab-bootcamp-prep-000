@@ -17,7 +17,7 @@ function init() {
   const input = document.querySelector('body')
   input.addEventListener('keydown', (event) => {
     checkCode.push(event.key)
-    console.log(checkCode)
+    //console.log(checkCode)
   if (checkCode.length === 10) {
     var counter = 0;
     for (var i = 0; i < 10; i++) {
