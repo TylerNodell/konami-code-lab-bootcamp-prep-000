@@ -16,6 +16,7 @@ function init() {
   var checkCode = [];
   window.addEventListener('keydown', (event) => {
     checkCode.push(event.key)
+    console.log(checkCode)
   })
   if (checkCode.length === 10) {
     if (checkCode === codes) {
