@@ -27,6 +27,7 @@ function init() {
       }
     if (counter === 10) {
         alert('yes')
+        checkCode = []
         return
     } else {
       checkCode = []
